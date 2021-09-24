@@ -1,0 +1,38 @@
+.references {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    color: #00705A;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+  }
+
+  p {
+    color: #777;
+    text-align: justify;
+  }
+  
+  div {
+    // display: flex;
+    // justify-content: center;
+    margin: 1rem 0 6rem 0;
+    img {
+      cursor: pointer;
+      height: 50px;
+      margin-right: 1.5rem;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      transition: 0.3s ease-in;
+
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
+}
